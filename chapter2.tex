@@ -1,0 +1,46 @@
+\section{\textbf{Programming Design}}
+\subsection{}
+\textbf{Convex Hull Algorithms:}
+
+\textbf{0.2.1 Brute Force Convex Hull Algorithm:}
+
+The Brute Force algorithm iteratively checks every triplet of points for a valid convex hull. This algorithm has a time
+complexity of O(nˆ4) and a space complexity of O(n).
+\textbf{0.2.2 Jarvis March Convex Hull Algorithm:}
+
+Jarvis March, also known as the Gift Wrapping algorithm, selects the point with the lowest y-coordinate as the starting
+point and iteratively selects the next point with the smallest polar angle. The time complexity of Jarvis March is
+O(nˆ2), with a space complexity of O(n).
+\textbf{0.2.3 Graham Scan Convex Hull Algorithm:}
+
+The Graham Scan algorithm involves sorting points based on their polar angles and constructing the convex hull in a
+counterclockwise manner. The time complexity of Graham Scan is O (n log n), and its space complexity is O(n).
+
+\textbf{0.2.4 Quick Elimination Convex Hull Algorithm:}
+
+Quick Elimination is an optimization of Graham Scan, where the point set is divided into smaller subsets, and Graham
+Scan is applied to each subset. The time complexity is O (n log h), and the space complexity is O(n).
+
+\textbf{0.2.5 Andrew’s Monotone Chain Convex Hull Algorithm:}
+
+Andrew’s Algorithm sorts the points and computes the convex hull in two separate chains—lower and upper. The time
+complexity is O (n log n), and the space complexity is O(n).
+
+
+\section{\textbf{Line Segment Algorithms:}}
+
+\subsection{}
+
+\textbf{0.2.6 Algebraic Line Segment Intersection Algorithm:}
+
+The Algebraic method calculates the slopes of the line segments and checks for intersection using algebraic equations.
+The time complexity is dependent on the solution of a system of equations and is analyzed further in the results section.
+
+\textbf{0.2.7 CCW Computation Line Segment Intersection Algorithm:}
+
+The CCW (Counter Clockwise) computation method involves determining the orientation of three points. The algorithm checks the orientations of relevant point triplets to identify intersections efficiently.
+
+\textbf{0.2.8 Vector Cross Product Line Segment Intersection Algorithm:}
+
+The Vector Cross Product method utilizes vector operations to determine whether two line segments intersect. This
+approach offers an alternative computational perspective.
