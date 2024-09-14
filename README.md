@@ -1,3 +1,4 @@
+# Design and Analysis of Alogrithm
 This project presents the implementation and analysis of five convex hull algorithms—Brute
 Force, Jarvis March, Gramham Scan, Quick Elimination, and Andrew’s Algorithm, as
 well as a Line Segment Intersection algorithm using three different methods—Algebraic,
