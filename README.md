@@ -12,8 +12,8 @@ each algorithm in their respective problem domains.
 # Introduction
 In the realm of computational geometry, convex hull algorithms stand as pivotal solutions
 to the challenge of identifying the convex hull within a given set of points. This report
-delves into the exploration of five distinct algorithms, each bringing its own unique approach to resolving the convex hull problem. Concurrently, the report also delves into the
-intricacies of Line Segment Intersection—a fundamental problem in computational geometry. This particular challenge involves determining the intersection of two provided
+delves into the exploration of five distinct algorithms, each bringing its own unique approach to resolving the convex hull problem. Concurrently, the report also delves into the
+intricacies of Line Segment Intersection—a fundamental problem in computational geometry. This particular challenge involves determining the intersection of two provided
 line segments. Within this context, the report scrutinizes three different algorithms, each
 offering its distinct methodology for tackling the Line Segment Intersection problem.
 
@@ -29,7 +29,7 @@ y-coordinate as the starting point and iteratively selects the next point with t
 polar angle. The time complexity of Jarvis March is O(n^2), with a space complexity of
 O(n). 
 # 0.2.3 Graham Scan Convex Hull Algorithm:
-The Graham Scan algorithm involves sorting points based on their polar angles and constructing the convex hull in a counterclockwise manner. The time complexity of Graham
+The Graham Scan algorithm involves sorting points based on their polar angles and constructing the convex hull in a counterclockwise manner. The time complexity of Graham
 Scan is O (n log n), and its space complexity is O(n).
 # 0.2.4 Quick Elimination Convex Hull Algorithm:
 Quick Elimination is an optimization of Graham Scan, where the point set is divided into
@@ -63,7 +63,7 @@ labels with intersection results.
 # CONCLUSION:
 In conclusion, the choice of a convex hull algorithm depends on the specific requirements
 of the application. For large datasets, Graham Scan and Quick Elimination prove to be
-efficient, while Jarvis March and Andrew’s Algorithm strike a balance between performance and simplicity. Additionally, the choice of a Line Segment Intersection algorithm
-depends on specific requirements and considerations. The CCW computation and Vector Cross Product methods demonstrate efficient and reliable intersection detection. The
+efficient, while Jarvis March and Andrew’s Algorithm strike a balance between performance and simplicity. Additionally, the choice of a Line Segment Intersection algorithm
+depends on specific requirements and considerations. The CCW computation and Vector Cross Product methods demonstrate efficient and reliable intersection detection. The
 algebraic method, while accurate, may have variable computational costs. The provided
 GUI enhances user interaction and visualization of the algorithms.
